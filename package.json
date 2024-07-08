@@ -1,0 +1,24 @@
+{
+  "name": "odinprojectrestaurantproject",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --node production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"https://github.com/weirdball7/odinProjectRestaurantProject.git\""
+  },
+  "author": "Rotem Amitay",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
