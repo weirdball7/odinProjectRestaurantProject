@@ -1,6 +1,5 @@
-const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
-
+const path = require('path');
 
 module.exports = {
     entry: './src/index.js', // Entry point of your application
@@ -10,7 +9,7 @@ module.exports = {
     },
     plugins: [
         new htmlWebpackPlugin({
-            tenplate: './src/index.html',   
+            template: './src/index.html',   
             filename: 'index.html',
             inject: 'body',
         }),
@@ -32,14 +31,14 @@ module.exports = {
             //     test: /\.(woff|woff2|eot|ttf|otf)$/i,
             //     type: 'asset/resource',
             //   },
-              {
-                test: /\.(csv|tsv)$/i,
-                use: ['csv-loader'],
-              },
-              {
-                test: /\.xml$/i,
-                use: ['xml-loader'],
-              },
+            //   {
+            //     test: /\.(csv|tsv)$/i,
+            //     use: ['csv-loader'],
+            //   },
+            //   {
+            //     test: /\.xml$/i,
+            //     use: ['xml-loader'],
+            //   },
         ]
     }
 
