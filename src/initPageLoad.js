@@ -26,6 +26,9 @@ const initialPageLoad = () => {
 
     div.appendChild(header);
     document.body.appendChild(div);
+
+    // Return the buttons so they can be accessed outside
+    return { homeBtn, menuBtn, aboutBtn, contactBtn };
 };
 
 export { initialPageLoad };
