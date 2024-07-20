@@ -24,11 +24,13 @@ const initialPageLoad = () => {
     header.appendChild(aboutBtn);
     header.appendChild(contactBtn);
 
-    div.appendChild(header);
+    document.body.appendChild(header);
     document.body.appendChild(div);
 
     // Return the buttons so they can be accessed outside
-    return { homeBtn, menuBtn, aboutBtn, contactBtn };
+    return { homeBtn, menuBtn, aboutBtn, contactBtn, div };
+
 };
+
 
 export { initialPageLoad };

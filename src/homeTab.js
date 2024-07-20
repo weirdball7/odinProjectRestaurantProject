@@ -1,3 +1,4 @@
+// import { initialPageLoad } from "./initPageLoad";
 // import { div } from "./initPageLoad";
 
 const loadHomeTab = () => {
@@ -5,6 +6,7 @@ const loadHomeTab = () => {
     const descriptionContainer = document.createElement('div');
     const hoursContainer = document.createElement('div');
     const locationContainer = document.createElement('div');
+    // const {div: content} = div;
 
     homeTab.setAttribute("id", "homeTab");
     descriptionContainer.setAttribute("id", "descriptionContainer");
@@ -15,9 +17,6 @@ const loadHomeTab = () => {
     homeTab.appendChild(hoursContainer);
     homeTab.appendChild(locationContainer);
 
-    document.body.appendChild(homeTab);
-
-    // return homeTab;
-
+    return {homeTab};
 };
 export { loadHomeTab };

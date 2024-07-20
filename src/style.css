@@ -1,5 +1,6 @@
 html,
-body {
+body,
+#content {
     height: 100vh;
 }
 
@@ -29,3 +30,28 @@ body {
     background-color: rgb(3, 129, 87);
 }
 
+#menuTab {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(252, 10, 10);
+};
+#menuContainer {
+    width: 20%;
+    height: 20%;
+    background-color: rgb(196, 34, 188);
+};
+#drinksMenu{
+    width: 20%;
+    height: 20%;
+    background-color: #65ec0b;
+}
+#foodMenu{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(118, 240, 5);
+}
+#dessertMenu{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(163, 53, 9);
+};
